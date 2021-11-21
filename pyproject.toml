@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "concrete_annotation"
+version = "0.1.0"
+description = ""
+authors = ["hirose.tomoki@gmail.com"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+segmentation-models = "^1.0.1"
+tensorflow = "2.4.0"
+pycocotools = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.910"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+radon = "^5.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
