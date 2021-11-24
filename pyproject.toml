@@ -7,9 +7,10 @@ authors = ["hirose.tomoki@gmail.com"]
 [tool.poetry.dependencies]
 python = "^3.8"
 jupyter = "^1.0.0"
-segmentation-models = "^1.0.1"
-tensorflow = "2.4.0"
 pycocotools = "^2.0.2"
+segmentation-models = "^1.0.1"
+opencv-python = "^4.2.0.34"
+tensorflow = "2.4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
