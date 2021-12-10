@@ -10,7 +10,7 @@ jupyter = "^1.0.0"
 pycocotools = "^2.0.2"
 segmentation-models = "^1.0.1"
 opencv-python = "^4.2.0.34"
-tensorflow-gpu = "2.4.0"
+tensorflow = "2.4.0"
 albumentations = "^1.1.0"
 plotly = "^5.4.0"
 pandas = "1.1"
@@ -22,6 +22,7 @@ mypy = "^0.910"
 isort = "^5.10.1"
 flake8 = "^4.0.1"
 radon = "^5.1.0"
+pytest-cov = "^3.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
