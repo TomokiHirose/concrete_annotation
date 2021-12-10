@@ -44,5 +44,5 @@ jobs:
       - name: Install library
         run: poetry install --no-interaction
       - run: |
-          poetry run pytest tests/
-          ßpoetry run coverage report
+          poetry run pytest tests/ --cov --cov-report=xml
+
